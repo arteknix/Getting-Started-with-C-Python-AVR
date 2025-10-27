@@ -12,10 +12,12 @@
 
 #include <stdio.h> //printf 
 
-/* main program: compulsary
+/* main function: compulsary for program
+ * if there is no main, you create a library
+ * takes no argument (void)
  * has to return an "int" for exit status */
 
-int main(){
+int main(void){
 	printf("\nHello C\n");	// "\n" means newline
 	return 0;
 }
