@@ -9,6 +9,7 @@ This file will be progressively updated
 Atmel's AVR microcontrollers have first class functionalities and documentation.
 Many examples illustrate every feature in the documentation.
 The configuration registers have self-explanatory names.
+Interrupt vectors have mnemonic names.
 Why write about apparently "simple" circuits if so many powerfull solutions exist ?
 
 Well, my criticism on people's behaviour in  this field is that most of them never really dive into the subject. They go blink some leds and forget about the product soon after.
