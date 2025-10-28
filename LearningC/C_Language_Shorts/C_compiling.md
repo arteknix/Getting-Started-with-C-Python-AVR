@@ -1,5 +1,14 @@
 # Compiling and Building
 
+In a very simplistic manner,
+- compiling is turning text into objects
+- building is linking objects to create the executable
+
+gcc handels all this for you.
+
+We will see how to customize this with makefiles
+
+
 ## Simple Form
 `gcc <sourcefile.c> -o <programname>`
 > if you use the minimal.c example, this could be:
