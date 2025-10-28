@@ -6,5 +6,5 @@
 
 > if you use the minimal.c example, this could be:
 >
-> `gcc minimal.c -o minmal_C_prog`
+> `gcc minimal.c -o minimal_C_prog`
 > 
