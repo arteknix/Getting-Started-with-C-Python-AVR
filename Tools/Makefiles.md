@@ -32,4 +32,7 @@ all:
 < TAB-8 > $(CC) <source.c> -o $(TARGET)
 ```
 where < TAB-8 > is a real size 8 tab. ⚠️ not 8 spaces. this has to be set in your editor\
-`:set noexpandtabs ` and `:set ts=8` in vim
+`:set noexpandtab ` and `:set ts=8` in vim
+
+> At this point, when you type `make`\
+> You will get `testing_C` in the current folder.
