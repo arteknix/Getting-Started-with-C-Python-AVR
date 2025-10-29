@@ -2,6 +2,7 @@
 
 > The hard work you don't see
 
+You can find examples in the [Make Folder](Make)
 Makefiles are recepies. Basically you just define:
 | type | |
 | --- | --- |
