@@ -1,20 +1,28 @@
 # How to format printf output
 
 `printf(f_string, var_args);`
+## Examples
 
-f_string is the format string, where you tell how to print the following values.\
-var_args means the the number of args is variable and depends on the format string.
+**_f_string_** is the format string, where you tell how to print the following values.\
+**_var_args_** means the the number of args is variable and depends on the format string.
 
-Example:
+### Example 1:
+s : string, d : int, f : float or double
 ```
 int age = 123;
-float pi=3.14159265358979;
+double pi=3.14159265358979;//float only goes to 6decimals
 char* name = "bugs bunny";
 printf("My name is %s, and I'm %d years old. I love %f", name, age, pi);
 ```
-
+### Example 2:
+d : int, c : character, X : upper case hexadecimal
+```
+unsigned int num = 0x41;
+printf(" the number is %d [0x%X], and rerpesents %c \n", num, num, num);
+```
+## printf 
 <details>
-  
+ 
 <summary>Complete List From man 3 printf avr-libc</summary>  
 
 > The format string is composed of zero or more directives: ordinary characters (not %), which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Each conversion specification is introduced by the % character. The arguments must properly correspond (after type promotion) with the conversion specifier. After the %, the following appear in sequence:
