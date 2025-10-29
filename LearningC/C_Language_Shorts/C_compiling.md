@@ -27,3 +27,6 @@ gcc -c <sourcefile.c> -o <sourcefile.o>
 gcc <sourcefile.o> -o <programname>
 
 ```
+# Makefiles
+
+[makefiles](../../Tools/Makefiles.md)
