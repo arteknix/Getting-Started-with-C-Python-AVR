@@ -113,3 +113,19 @@ When you want to create a function you put the prototype at the beginning of the
 ## Loop
 
 ## Preprocessor Directives
+They start with a hash **#** and should be declared at the top of the file.
+> [!NOTE]
+> Commonly we use:
+> ```
+> #include <header-file> 
+> #define UPPERCASE_NAME <substitution> //Macro definition
+> ```
+>
+
+> [!TIP]
+>  A classical example of Macro definition 
+>  `#define MAX(A,B) ((A)>(B)?(A):(B))` \
+>  in brackets for the case where A or B is am expresion which has to be evaluated first
+>
+>  For `#include` [headers](C_Files.md#header)
+> 
