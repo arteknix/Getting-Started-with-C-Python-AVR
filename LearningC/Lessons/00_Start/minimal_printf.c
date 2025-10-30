@@ -1,3 +1,6 @@
+/* ©arteknix
+this is the version of minimal.c with some more printf
+*/
 #include <stdio.h>
 int main(void){
   /*variable declarations and initialisations*/
