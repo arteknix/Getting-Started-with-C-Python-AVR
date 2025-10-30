@@ -23,6 +23,7 @@ You can only use variables you previously declared (or included from other files
 ## Variable Types
 
 ### Numbers:
+> [!NOTE]
 > **bool** `#include <stdbool.h>`:
 >   > true or false 
 > 
@@ -45,15 +46,17 @@ You can only use variables you previously declared (or included from other files
 >   > double precision real number (16-bit?)
 >   
 
->  [!NOTE]
->  For **intergers** we specify the size explicitly when it matters:
+>  [!TIP]
+>  For **intergers** we specify the size explicitly when it matters `#include <stdint.h>`:
 >  -  uint8_t : unsigned 8 bit
 >  -  int32_t : signed 32 bit
+>    
 
 ### Arrays
 Records of homogenous data. Technically it's like a **list**\
-The classic example would be ** char* argv[] **\
-which holds the list of parameters/arguments passed to a program,
+The classic example would be **char\* argv[]**\
+which holds the list of parameters/arguments passed to a program.
+
 ### Struct
 When we need several variables to describe an entitiy. we use **struct** (records of heterogenous data)
 
@@ -62,6 +65,10 @@ Sometimes we need alternatives. A **union** could consist of a number and the te
 
 ### Type defined
 You can define your own types with **_typedef_**
+```
+typedef uint16_t banana;//0-65535
+banaba bigNum = 1329:
+```
 
 ### Other/Any
 void: no variable/value
@@ -84,6 +91,22 @@ If you want to know how many bits they are, you can call the _sizeof() function_
 </details>
 
 ## Functions
+Functions have a **prototype** which defines parameters and return value.
+When you want to create a function you put the prototype at the beginning of the [source file](C_Files.md#source) or in the [header file](C_Files.md#header)
+> [!NOTE]
+> **prototype**
+>  ```
+>  <return-type> <function-name> (<arguments>);
+>  ```
+>
+> **declaration**
+>  ``` 
+>  <return-type> <function-name> (<arguments>){
+>  <function-body>
+>  return <return-value>;
+>  }
+>  ```
+>  
 
 ## Conditional
 
