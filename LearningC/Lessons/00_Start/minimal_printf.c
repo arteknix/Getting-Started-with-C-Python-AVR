@@ -8,6 +8,6 @@ int main(void){
   float pi    = 3.14159265358979;
   char* name  = "bugs bunny";
   /**/
-  printf("My name is %s, and I'm %d years old. I love %f", name, age, pi);
+  printf("My name is %s, and I'm %d years old. I love %f\n", name, age, pi);
   return 0;
 }

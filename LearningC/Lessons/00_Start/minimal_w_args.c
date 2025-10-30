@@ -4,6 +4,6 @@ the official/historical way for main
 */
 #include <stdio.h>
 int main(int argc, char* argv[]){
-  printf("Hello C!\n%d args, for program %s", argc, argv[0]);
+  printf("Hello C!\n%d args, for program %s\n", argc, argv[0]);
   return 0;
 }
