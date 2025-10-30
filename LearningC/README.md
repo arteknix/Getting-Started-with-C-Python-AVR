@@ -1,2 +1,6 @@
 # Learning C 
-This is ment to be a simple introduction to the C programming language to get people started with avr-libc 
+This is ment to be a simple introduction to the **C programming language** to get people started with **libc** and **avr-libc** 
+
+>[!TIP]
+>  If you don't know C at all, start with [c_syntax](C_Language_Shorts/C_syntax.md)\
+>  Then take a look at [minimal.c](minimal.c) and [Lesson00](Lessons/00_Start)
