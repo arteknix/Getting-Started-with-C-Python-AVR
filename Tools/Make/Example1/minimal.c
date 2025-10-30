@@ -1,5 +1,5 @@
 /*
-¢arteknix
+©arteknix
 example with more printf formatting
 */
 #include <stdio.h>
