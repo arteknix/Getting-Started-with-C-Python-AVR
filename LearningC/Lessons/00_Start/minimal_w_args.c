@@ -1,4 +1,4 @@
-/* arteknix
+/* ©arteknix
 this is the version of minimal.c with command-line arguments
 the official/historical way for main
 */
