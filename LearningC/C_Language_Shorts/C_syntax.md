@@ -7,7 +7,7 @@ You can only use variables you previously declared (or included from other files
 ## Variable Types
 
 ### Numbers:
-- bool
+- bool `#include <stdbool.h>`
   - true or false
 - char (signed/unsigned)
   - 8-bit = 1 byte
@@ -22,9 +22,20 @@ You can only use variables you previously declared (or included from other files
 - double
   - double precision real number
 
-For **intergers** we sprcify the size explicitly when it matters:
--  uint8_t : unsigned 8 bit
--  int32_t : signed 32 bit
+>  [!NOTE]
+>  For **intergers** we specify the size explicitly when it matters:
+>  -  uint8_t : unsigned 8 bit
+>  -  int32_t : signed 32 bit
+
+### Arrays
+Records of homogenous data. Technically it's like a **list**\
+The classic example would be ** char* argv[] **\
+which holds the list of parameters/arguments passed to a program,
+### Struct
+When we need several variables to describe an entitiy. we use **struct** (records of heterogenous data)
+
+### Unions
+Sometimes we need alternatives. A **union** could consist of a number and the text "Not Defined"
 
 ### Type defined
 You can define your own types with **_typedef_**
