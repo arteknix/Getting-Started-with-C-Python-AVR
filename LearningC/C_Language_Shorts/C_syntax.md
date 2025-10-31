@@ -92,14 +92,14 @@ void: no variable/value
 
 ## Operators
 
+### binary
 \+ \- \* / % ^ \
-& | ^  ~ 
+### unary
+& | ^  ~
+### incremental
 \++ \--
 
-### Numbers:
-> [!NOTE]
-> **bool** `#include <stdbool.h>`:
->   > true or false 
+
 ## Functions
 Functions have a **prototype** which defines parameters and return value.
 When you want to create a function you put the prototype at the beginning of the [source file](C_Files.md#source) or in the [header file](C_Files.md#header)
