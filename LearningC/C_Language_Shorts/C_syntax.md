@@ -52,6 +52,23 @@ You can only use variables you previously declared (or included from other files
 >  -  int32_t : signed 32 bit
 >    
 
+<details>
+<summary> More on type "int" </summary>
+Check man stdint.h
+  
+Integers can be prefixed with _unsigned_
+- As an example take _char_ which is 8 bit long, 2^8 = 256 values
+  - char is from -128 to 127  [ -(2^8) /2 ; ((2^8) /2)-1 ]
+  - unsigned char from 0 to 255 [ 0 ; (2^8)-1 ]
+
+Integers can be:
+- long (l)
+- unsigned long (ul)
+- long long (ll)
+- unsigned long long (ull)
+If you want to know how many bits they are, you can call the _sizeof() function_
+</details>
+
 ### Arrays
 Records of homogenous data. Technically it's like a **list**\
 The classic example would be **char\* argv[]**\
@@ -72,23 +89,6 @@ banaba bigNum = 1329:
 
 ### Other/Any
 void: no variable/value
-
-<details>
-<summary> More on type "int" </summary>
-Check man stdint.h
-  
-Integers can be prefixed with _unsigned_
-- As an example take _char_ which is 8 bit long, 2^8 = 256 values
-  - char is from -128 to 127  [ -(2^8) /2 ; ((2^8) /2)-1 ]
-  - unsigned char from 0 to 255 [ 0 ; (2^8)-1 ]
-
-Integers can be:
-- long (l)
-- unsigned long (ul)
-- long long (ll)
-- unsigned long long (ull)
-If you want to know how many bits they are, you can call the _sizeof() function_
-</details>
 
 ## Functions
 Functions have a **prototype** which defines parameters and return value.
