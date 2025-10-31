@@ -8,7 +8,7 @@ This is ment to be a simple introduction to the **C programming language** to ge
 > C Language References are grouped in [C_Language_Shorts](C_Language_Shorts) 
 
 >[!TIP]
->  If you nee help with [Makefiles](Tools/Make/Example1)
+>  If you need help with [Makefiles](Tools/Make/Example1)
 >  >  cp minimal.c and Makefile into a test folder \
 >  >  cd testfolder \
 >  > `make`
