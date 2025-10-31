@@ -90,6 +90,16 @@ banaba bigNum = 1329:
 ### Other/Any
 void: no variable/value
 
+## Operators
+
+\+ \- \* / % ^ \
+& | ^  ~ 
+\++ \--
+
+### Numbers:
+> [!NOTE]
+> **bool** `#include <stdbool.h>`:
+>   > true or false 
 ## Functions
 Functions have a **prototype** which defines parameters and return value.
 When you want to create a function you put the prototype at the beginning of the [source file](C_Files.md#source) or in the [header file](C_Files.md#header)
@@ -116,6 +126,11 @@ When you want to create a function you put the prototype at the beginning of the
 >  ```
 >
 
+>  [!TIP]
+>  **main** from the _main program_ is the **main function** \
+>  taking **argc, argv** as arguments and \
+>  **returning an int** as status  ( 0 = success)
+>    
 
 ## Conditional
 
