@@ -58,7 +58,7 @@ The classic example would be **char\* argv[]**\
 which holds the list of parameters/arguments passed to a program.
 
 ### Struct
-When we need several variables to describe an entitiy. we use **struct** (records of heterogenous data)
+When we need several variables to describe an entitiy, we use **struct** (records of heterogenous data)
 
 ### Unions
 Sometimes we need alternatives. A **union** could consist of a number and the text "Not Defined"
@@ -106,11 +106,34 @@ When you want to create a function you put the prototype at the beginning of the
 >  return <return-value>;
 >  }
 >  ```
->  
+>
+> **inline** (all-in-one)
+>  ```
+>  <return-type> <function-name> (<arguments>){
+>  <function-body>
+>  return <return-value>;
+>  }; // note the semi-colon
+>  ```
+>
+
 
 ## Conditional
 
+Conditional statements are only executed under certain conditions
+
+### if-then-else
+
+### switch-case
+
 ## Loop
+Loops run several times depending on an exit condition
+
+### while-do
+
+### for
+
+### break and continue
+
 
 ## Preprocessor Directives
 They start with a hash **#** and should be declared at the top of the file.
