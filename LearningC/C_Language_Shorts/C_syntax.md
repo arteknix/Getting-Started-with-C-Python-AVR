@@ -9,8 +9,10 @@ You can only use variables you previously declared (or included from other files
 >   >  numbers \
 >   >  arrays \
 >   >  struct 
+>
 > 
-> [Functions](#functions) \
+> [Operators](#operators) 
+> 
 > [Conditional Statements](#conditional) 
 >  > if / then / else \
 >  > switch / case
