@@ -95,12 +95,38 @@ void: no variable/value
 ## Operators
 
 ### binary
-\+ \- \* / % ^ \
-### unary
-& | ^  ~
-### incremental
-\++ \--
+```
+a <op> b, where <op> os one of:
+  + - * / % (modulo) ^ (power)
+```
 
+### unary
+```
+<op>a, where <op> os one of:
+  & * ~ -
+```
+
+### incremental
+```
+<op>a or a<op>, where <op> os one of:
+  ++ (+=1) -- (-=1) 
+```
+###  accessing
+```
+A.a where A is a struct
+  returns elemement a 
+```
+
+### bitwise
+```
+a<op>b, where <op> os one of:
+  & (and) | (or) ^ (Xor) ~ (not)
+```
+### logic
+```
+a<op>b, where <op> os one of:
+  && (and) || (or) ^ (Xor) ! (not)
+```
 
 ## Functions
 Functions have a **prototype** which defines parameters and return value.
