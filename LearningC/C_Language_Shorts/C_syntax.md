@@ -94,12 +94,26 @@ void: no variable/value
 
 ## Operators
 
-### binary
+### arithmetic
 ```
 a <op> b, where <op> os one of:
-  + - * / % (modulo) ^ (power)
+  + - * / % (modulo)
 ```
-
+### assignment
+```
+  = : a = b, assign value of b to a
+  += : a+=3 <=> a = a + 3;
+  -= , *= , /= , ...
+```
+### comparison
+```
+  == : is equal
+  != : is not equal
+  <= : is less or equal
+  => : is greater or equal
+  <  : less
+  >  : more 
+```
 ### unary
 ```
 <op>a, where <op> os one of:
@@ -111,10 +125,13 @@ a <op> b, where <op> os one of:
 <op>a or a<op>, where <op> os one of:
   ++ (+=1) -- (-=1) 
 ```
-###  accessing
+### accessing
 ```
 A.a where A is a struct
-  returns elemement a 
+  returns elemement a
+  *A.a == A->a : where a is a pointer to a struct
+A[i] where A is an array
+  returns the i-th element of A
 ```
 
 ### bitwise
