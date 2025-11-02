@@ -38,10 +38,14 @@ You can only use variables you previously declared (or included from other files
 >   >  arrays \
 >   >  struct \
 >   >  union  \
->   >  enum
+>   >  enum \
+>   >  void \
+>   >  pointer
 > 
 > [Operators](#operators) 
 > 
+> [Functions](#functions)
+>  
 > [Conditional Statements](#conditional) 
 >  > if / else \
 >  > switch / case
@@ -257,7 +261,9 @@ When you want to create a function you put the prototype at the beginning of the
 
 ## Conditional
 
-Conditional statements are only executed under certain conditions
+Conditional statements are only executed under certain conditions\
+> ***Conditions wear bras***
+> parenthesize
 
 ### if-then-else
 ```
@@ -300,8 +306,9 @@ do {} while (<condition>)
   checks condition AFTER execution
 ```
 ### for
+⚠️ **semi-colon** **;**
 ```
-  for(iterator;end_condition;increment){}
+  for(iterator; end_condition; increment){}
   for(int i = 0; i<10; i++){}
 ```
 ### break and continue
