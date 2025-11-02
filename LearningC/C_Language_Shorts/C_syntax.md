@@ -3,18 +3,47 @@
 C is a language with static strong typing,
 This means that you cannot change a variable's type or size once you've declared it.\
 You can only use variables you previously declared (or included from other files)
-### Index
+
+## Instructions and blocs
+>[!IMPORTANT]
+> every instruction ends with a **semi-colon** **;**\
+> a bloc contains instructions and is delimted by **{** and **}**\
+> variables defined inside a block, are not known outside of this bloc\
+> ==> there will be a separate part on **scope of variables**
+
+>[!TIP]
+> Start using a good coding style for readability right from the start
+> examples:
+> ```
+> for(;;){// loop other ....
+>   ...
+> }
+> if () {// condition1
+>   ...
+> }
+> else {// condition2 
+>   ...
+> }//endif
+> 
+> ```
+> 
+
+>[!NOTE]
+> Use comments to document immediately
+  
+## Index
 
 > [Data Types](#variable-types) 
 >   >  numbers \
 >   >  arrays \
->   >  struct 
+>   >  struct \
+>   >  union
 >
 > 
 > [Operators](#operators) 
 > 
 > [Conditional Statements](#conditional) 
->  > if / then / else \
+>  > if / else \
 >  > switch / case
 >  
 > [Loop Statements](#loop)
@@ -75,12 +104,32 @@ If you want to know how many bits they are, you can call the _sizeof() function_
 Records of homogenous data. Technically it's like a **list**\
 The classic example would be **char\* argv[]**\
 which holds the list of parameters/arguments passed to a program.
+```
+  char buffer[26] = "the dark side of the moon";
+  buffer[2] : would be "e", because indices start at 0 
+```
 
 ### Struct
 When we need several variables to describe an entitiy, we use **struct** (records of heterogenous data)
+```
+struct{
+  float x = 0.707;
+  float y = 0.707;
+} point; // defines point as a struct containing 2 real values (coordinates)
+point.x is 0.707 (sqrt(2)/2 ;-))  
+```
 
 ### Unions
-Sometimes we need alternatives. A **union** could consist of a number and the text "Not Defined"
+Sometimes we need alternatives. A **union** could consist of a number and the text "Not Defined" \
+Both variables are stored in the same memory location, so I can have one or the other \
+Perfect in this case:
+
+```
+union test{
+    char* status;
+    int value ;
+};
+```
 
 ### Type defined
 You can define your own types with **_typedef_**
@@ -90,7 +139,13 @@ banaba bigNum = 1329:
 ```
 
 ### Other/Any
-void: no variable/value
+```
+void : no variable/value
+<datatype>* p : is a pointer to variable of type <datatype>
+pointer : an address in memory
+*pointer : value stored at this address
+&<variable> : memory address of <variable>
+```
 
 ## Operators
 
@@ -129,7 +184,8 @@ a <op> b, where <op> os one of:
 ```
 A.a where A is a struct
   returns elemement a
-  *A.a == A->a : where a is a pointer to a struct
+*A.a == A->a : where A is a pointer to a struct
+  returns elemement a
 A[i] where A is an array
   returns the i-th element of A
 ```
@@ -139,10 +195,13 @@ A[i] where A is an array
 a<op>b, where <op> os one of:
   & (and) | (or) ^ (Xor) ~ (not)
 ```
+These are extremely important for configuring µControllers,\
+Ther will be an exercise just for this topic
+
 ### logic
 ```
 a<op>b, where <op> os one of:
-  && (and) || (or) ^ (Xor) ! (not)
+  && (and) || (or) ^ (xor) ! (not)
 ```
 
 ## Functions
@@ -182,18 +241,55 @@ When you want to create a function you put the prototype at the beginning of the
 Conditional statements are only executed under certain conditions
 
 ### if-then-else
-
+```
+  if (condition1)
+  {}
+  else if (condition2)
+  {}
+  ...
+  else
+  {} 
+```
 ### switch-case
+```
+  switch (<test>):
+    case (confition1):
+        ...
+        break;
+    case (confition2):
+        ...
+        break;
+    case (confition3):
+        ...
+        break;
+    ...
+    default:
+        ...
+        break;
+``` 
 
 ## Loop
 Loops run several times depending on an exit condition
 
 ### while-do
-
+```
+while (<condition>) do {}
+  only if condition true
+  checks condition BEFORE execution
+do {} while (<condition>)
+  at least once
+  checks condition AFTER execution
+```
 ### for
-
+```
+  for(iterator;end_condition;increment){}
+  for(int i = 0; i<10; i++){}
+```
 ### break and continue
-
+```
+  break;// get out of the loop (if some condition is met)
+  continue;// go to next iteration of the loop (if some condition is met)
+```
 
 ## Preprocessor Directives
 They start with a hash **#** and should be declared at the top of the file.
