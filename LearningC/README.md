@@ -13,4 +13,4 @@ This is ment to be a simple introduction to the **C programming language** to ge
 >  >  cd testfolder \
 >  > `make`
 >
->  More on Makefiles in the [Tools Folder](Tools/Make)
+>  More on Makefiles in the [Tools Folder](../Tools/Make)
