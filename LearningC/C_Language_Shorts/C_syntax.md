@@ -37,8 +37,8 @@ You can only use variables you previously declared (or included from other files
 >   >  numbers \
 >   >  arrays \
 >   >  struct \
->   >  union
->
+>   >  union  \
+>   >  enum
 > 
 > [Operators](#operators) 
 > 
@@ -73,10 +73,10 @@ You can only use variables you previously declared (or included from other files
 >   > longer integer. if you need more you can use _long long_
 > 
 > **float**:
->   > real number (8-bit?)
+>   > real number (4 byte)
 > 
 > **double**:
->   > double precision real number (16-bit?)
+>   > double precision real number (8 byte)
 >   
 
 >  [!TIP]
@@ -101,6 +101,23 @@ Integers can be:
 - unsigned long long (ull)
 If you want to know how many bits they are, you can call the _sizeof() function_
 </details>
+
+### Enums
+This is a handy type, for example for tracking states of a device:
+```
+enum device_status{
+  DEVICE_OK = 0,
+  DEVICE_CONNECTED,
+  DEVICE_LOST = 10
+}
+...
+  if (device_status == DEVICE_OK) {...}
+```
+  enums are NAMES for constants. It's like:  
+```
+#define DEVICE_OK 0
+#define DEVICE_CONNECTED 1
+```
 
 ### Arrays
 Records of homogenous data. Technically it's like a **list**\
