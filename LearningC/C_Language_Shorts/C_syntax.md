@@ -50,7 +50,7 @@ You can only use variables you previously declared (or included from other files
 >  > while / do \
 >  > for
 >
-> [Preprocessoe directives](#preprocessor-directives)
+> [Preprocessor Directives](#preprocessor-directives)
 >  
 
 ## Variable Types
