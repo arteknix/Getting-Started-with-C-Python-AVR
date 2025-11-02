@@ -327,3 +327,8 @@ They start with a hash **#** and should be declared at the top of the file.
 >
 >  For `#include` [headers](C_Files.md#header)
 > 
+## Further Reference
+>[!NOTE]
+> This document is more a C cheat-sheet \
+> If you want a complete tutorial, there are many
+> A good starting point would be on [geeksforgeeks](https://www.geeksforgeeks.org/c/c-programming-language/)
