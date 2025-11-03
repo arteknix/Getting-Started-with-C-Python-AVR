@@ -282,7 +282,7 @@ When you want to create a function you put the prototype at the beginning of the
 
 ## Conditional
 
-Conditional statements are only executed under certain conditions\
+Conditional statements are only executed under certain conditions
 > ***Conditions wear bras***
 > parenthesize
 
