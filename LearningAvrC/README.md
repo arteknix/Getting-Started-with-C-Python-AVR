@@ -2,7 +2,7 @@
 >[!NOTE]
 >***The heart of this Repo***
 
-If you are not familiar with the C programming language, please go through [LearningC](LearningC)
+If you are not familiar with the C programming language, please go through [LearningC](../LearningC)
 
 Before diving into this make sure you read [UsingArduino](../UsingArduino/README.md)
 
