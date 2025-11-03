@@ -141,6 +141,23 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 > so here we have the ***declarations*** of the **setup** and **loop** [functions](../LearningC/C_Language_Shorts/C_syntax.md#functions) \
 > you ***define*** them in your sketch
 
+### Hardware Magic
+
+>[!IMPORTANT]
+> This is configured through the following files:
+> pins_arduino.h\
+> boards.txt\
+> platform.txt
+For the standard arduino boards like UNO they can be found in:
+> ```
+> ARDUINO_DIR/hardware/arduino/avr/
+> ARDUINO_DIR/hardware/arduino/avr/variants/standard/
+> ```
+> and the **official libraries** would be in:\
+> ```
+> ARDUINO_DIR//hardware/arduino/avr/libraries/
+> ```
+
 ## ArduinoMk
 This a beautifull package based on make-files which allows you to use Arduino code without the "heavyweight" IDE.\
 We'll use it for some examples.
