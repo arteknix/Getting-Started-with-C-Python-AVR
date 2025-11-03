@@ -30,6 +30,16 @@ You can only use variables you previously declared (or included from other files
 
 >[!NOTE]
 > Use comments to document immediately
+> ```
+> if () // we use option 1
+> {
+>  ...
+> }
+> else // default
+> {
+>  ...
+> }//endif
+> ```
   
 ## Index
 
@@ -158,7 +168,7 @@ union test{
 You can define your own types with **_typedef_**
 ```
 typedef uint16_t banana;//0-65535
-banaba bigNum = 1329:
+banana bigNum = 1329:
 ```
 
 ### Other/Any
@@ -174,7 +184,7 @@ pointer : an address in memory
 
 ### arithmetic
 ```
-a <op> b, where <op> os one of:
+a <op> b, where <op> is one of:
   + - * / % (modulo)
 ```
 ### assignment
@@ -194,13 +204,13 @@ a <op> b, where <op> os one of:
 ```
 ### unary
 ```
-<op>a, where <op> os one of:
+<op>a, where <op> is one of:
   & * ~ -
 ```
 
 ### incremental
 ```
-<op>a or a<op>, where <op> os one of:
+<op>a or a<op>, where <op> is one of:
   ++ (+=1) -- (-=1) 
 ```
 ### accessing
@@ -215,15 +225,15 @@ A[i] where A is an array
 
 ### bitwise
 ```
-a<op>b, where <op> os one of:
-  & (and) | (or) ^ (Xor) ~ (not)
+a<op>b, where <op> is one of:
+  & (and) | (or) ^ (xor) ~ (not)
 ```
 These are extremely important for configuring µControllers,\
 Ther will be an exercise just for this topic
 
 ### logic
 ```
-a<op>b, where <op> os one of:
+a<op>b, where <op> is one of:
   && (and) || (or) ^ (xor) ! (not)
 ```
 
@@ -265,7 +275,7 @@ Conditional statements are only executed under certain conditions\
 > ***Conditions wear bras***
 > parenthesize
 
-### if-then-else
+### if-else
 ```
   if (condition1)
   {}
