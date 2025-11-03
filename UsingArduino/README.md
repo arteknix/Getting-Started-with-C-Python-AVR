@@ -153,7 +153,7 @@ For the standard arduino boards like UNO they can be found in:
 > ARDUINO_DIR/hardware/arduino/avr/
 > ARDUINO_DIR/hardware/arduino/avr/variants/standard/
 > ```
-> and the **official libraries** would be in:\
+> and the **official libraries** would be in:
 > ```
 > ARDUINO_DIR//hardware/arduino/avr/libraries/
 > ```
