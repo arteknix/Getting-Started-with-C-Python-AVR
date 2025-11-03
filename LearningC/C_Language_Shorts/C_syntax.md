@@ -261,7 +261,18 @@ When you want to create a function you put the prototype at the beginning of the
 >  return <return-value>;
 >  }; // note the semi-colon
 >  ```
->
+> example:
+> > in header
+> > ```
+> > float norm(float x, float y);
+> > ```
+> > in source
+> > ```
+> > float norm(float x, float y){ 
+> >   return sqrt(x*x + y*y);
+> > }
+> >```
+> 
 
 >  [!TIP]
 >  **main** from the _main program_ is the **main function** \
@@ -288,17 +299,17 @@ Conditional statements are only executed under certain conditions\
 ### switch-case
 ```
   switch (<test>):
-    case (confition1):
+    case (result A):
         ...
         break;
-    case (confition2):
+    case (result B):
         ...
         break;
-    case (confition3):
+    case (result C):
         ...
         break;
     ...
-    default:
+    default: // unexpected or obvious
         ...
         break;
 ``` 
