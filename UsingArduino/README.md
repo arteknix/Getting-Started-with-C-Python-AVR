@@ -43,7 +43,7 @@ Arduino.h // main header file
 main.cpp  // main source file
 ```
 ### Do the Magic
-***main.cpp*** says (I took out a few lines for clarity):\
+***main.cpp*** says (I took out a few lines for clarity):
 ```
 #include <Arduino.h>
 ...
@@ -75,7 +75,7 @@ int main(void)
 	return 0;
 } 
 ```
-And ***Arduino.h*** contains all the magically coloured commands ( just some example lines here ) :\
+And ***Arduino.h*** contains all the magically coloured commands ( just some example lines here ) :
 > ```
 > #ifndef Arduino_h
 > #define Arduino_h
@@ -125,4 +125,8 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 > 
 > ...
 > 
-```
+> ```
+
+>[!NOTE]
+> so here we have the ***declarations*** of the **setup** and **loop** [functions](../LearningC/C_Language_Shorts/C_syntax.md#functions) \
+> you ***define*** them in your sketch
