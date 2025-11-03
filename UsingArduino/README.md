@@ -30,7 +30,13 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
-### How can it even work?
+>[!NOTE]
+> this sketch use :
+> - pinMode()
+> - digitalWrite()
+> - delay()
+> - LED_BUILTIN / HIGH / LOW
+## How can it even work?
 
 Well, the answer to this is in your arduino folder ( /usr/share/arduino on linux ).\
 Let's say we give a generic name to this forlder for thurther use:\
@@ -130,3 +136,7 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 >[!NOTE]
 > so here we have the ***declarations*** of the **setup** and **loop** [functions](../LearningC/C_Language_Shorts/C_syntax.md#functions) \
 > you ***define*** them in your sketch
+
+## ArduinoMk
+This a beautifull package based on make-files which allows you to use Arduino code without the "heavyweight" IDE.\
+We'll use it for some examples.
