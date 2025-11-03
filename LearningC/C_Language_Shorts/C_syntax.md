@@ -346,7 +346,25 @@ They start with a hash **#** and should be declared at the top of the file.
 > #include <header-file> 
 > #define UPPERCASE_NAME <substitution> //Macro definition
 > ```
->
+
+> [!IMPORTANT]
+> we use the following to compile only code we need
+> ```
+> #if
+> #else // or #elseif
+> #endif
+> #if defined
+> #ifdef
+> #if not defined
+> #ifndef
+> ```
+> we use the following to avoid multiple inclusdion of headers
+> ```
+> #ifndef _THIS_HEADER_H_ //first line of this_header.h
+> #define _THIS_HEADER_H_
+> ...
+> #endif //last line of this_header.h
+> ```
 
 > [!TIP]
 >  A classical example of Macro definition 
@@ -354,7 +372,8 @@ They start with a hash **#** and should be declared at the top of the file.
 >  in brackets for the case where A or B is am expresion which has to be evaluated first
 >
 >  For `#include` [headers](C_Files.md#header)
-> 
+>
+
 ## Further Reference
 >[!NOTE]
 > This document is more a C cheat-sheet \
