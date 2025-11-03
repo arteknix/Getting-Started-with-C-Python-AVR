@@ -144,11 +144,12 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 ### Hardware Magic
 
 >[!IMPORTANT]
-> This is configured through the following files:
+> This is configured through the following files:\
 > pins_arduino.h\
 > boards.txt\
 > platform.txt
-For the standard arduino boards like UNO they can be found in:
+>
+> For the standard arduino boards like UNO they can be found in:
 > ```
 > ARDUINO_DIR/hardware/arduino/avr/
 > ARDUINO_DIR/hardware/arduino/avr/variants/standard/
