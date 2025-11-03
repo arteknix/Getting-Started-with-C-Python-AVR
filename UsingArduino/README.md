@@ -35,7 +35,7 @@ void loop() {
 }
 ```
 >[!NOTE]
-> this sketch use :
+> this sketch uses :
 > - pinMode()
 > - digitalWrite()
 > - delay()
