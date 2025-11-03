@@ -13,6 +13,10 @@ Using the IDE and testing alternatives
 > - gives you access to many libraries
 > - is supported by many board/sensor manufacturers
 
+> [!TIP]
+> in [LearningAvrC](../LearningAvrC) (SID:Still In Development)
+> we will do some ***massive skimming***
+
 ## IDE - Basic Blink Sketch
 
 ```
@@ -140,3 +144,23 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 ## ArduinoMk
 This a beautifull package based on make-files which allows you to use Arduino code without the "heavyweight" IDE.\
 We'll use it for some examples.
+
+## Addendum
+In your sketch or temporary folder you will find a file called ***main.cpp.d***
+>[!IMPORTANT]
+> It contains all the files to include for compiling and linking main.cpp:
+>```
+> build-uno/core/main.cpp.o: \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/main.cpp \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Arduino.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/binary.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/WCharacter.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/WString.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Stream.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Print.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Printable.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/USBAPI.h \
+>  /usr/share/arduino/hardware/arduino/avr/cores/arduino/Arduino.h \
+>  /usr/share/arduino/hardware/arduino/avr/variants/standard/pins_arduino.h
+>```
