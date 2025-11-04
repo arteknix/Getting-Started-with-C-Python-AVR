@@ -1,0 +1,22 @@
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:     936 bytes (2.9% Full)
+(.text + .data + .bootloader)
+
+Data:          9 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+/usr/share/arduino/hardware/tools/avrdude -q -V -p atmega328p -C /usr/share/arduino/hardware/tools/avrdude.conf -D -c arduino -b 115200 -P /dev/ttyACM2 \
+                -U flash:w:build-uno/ArduMk_.hex:i
+
+avrdude: AVR device initialized and ready to accept instructions
+avrdude: device signature = 0x1e950f (probably m328p)
+avrdude: reading input file build-uno/ArduMk_.hex for flash
+         with 936 bytes in 1 section within [0, 0x3a7]
+         using 8 pages and 88 pad bytes
+avrdude: writing 936 bytes flash ...
+avrdude: 936 bytes of flash written
+
+avrdude done.  Thank you.
