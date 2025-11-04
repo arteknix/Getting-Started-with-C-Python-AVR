@@ -14,7 +14,7 @@ Using the IDE and testing alternatives
 > - is supported by many board/sensor manufacturers
 
 > [!TIP]
-> in [LearningAvrC](../LearningAvrC) (SID:Still In Development)
+> in [LearningAvrC](../LearningAvrC) (SID: Still In Development)
 > we will do some ***massive skimming***
 
 ## IDE - Basic Blink Sketch
@@ -160,8 +160,38 @@ And ***Arduino.h*** contains all the magically coloured commands ( just some exa
 > ```
 
 ## ArduinoMk
-This a beautifull package based on make-files which allows you to use Arduino code without the "heavyweight" IDE.\
-We'll use it for some examples.
+This a beautifull package by Martin J. Oldfield based on make-files which allows you to use Arduino code without the "heavyweight" IDE.\
+We'll use it for some examples.\
+
+>[!NOTE]
+> On debian the package is called arduino-mk.\
+> It's philosophy is based on doing the work in your project's folder, and keeping the compiled binary in elf and hex format there, next to your sketch.
+> It's well documented.\
+> You can use standard arduino language and the standard arduino boards easily. Other boards are supported through extra configuration options.
+
+### Example Makefile
+```
+ARDUINO_DIR     = /usr/share/arduino
+ARDMK_DIR       = /usr/share/arduino
+#AVR_TOOLS_DIR  = /usr
+#ARDUINO_LIBS   = Ethernet SPI
+BOARD_TAG       = uno
+MONITOR_PORT    = /dev/ttyACM0
+AVRDUDE         = /usr/share/arduino/hardware/tools/avrdude
+AVRDUDE_CONF    = /usr/share/arduino/hardware/tools/avrdude.conf
+include /usr/share/arduino/Arduino.mk
+``` 
+>[!IMPORTANT]
+>if your BOARD_TAG is UNO, the output will be in subfolder 'build-uno'
+
+### Using Arduino-Mk
+
+>[!TIP]
+> - create the folder for your project
+> - add your ino-sketch
+> - create "Makefile" as shown above
+> - basically just ```make``` or ```make upload```
+> - ```make help``` is your friend
 
 ## Addendum
 In your sketch or temporary folder you will find a file called ***main.cpp.d***
