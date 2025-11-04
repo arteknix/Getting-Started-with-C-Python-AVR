@@ -241,12 +241,12 @@ a<op>b, where <op> is one of:
 Functions have a **prototype** which defines parameters and return value.
 When you want to create a function you put the prototype at the beginning of the [source file](C_Files.md#source) or in the [header file](C_Files.md#header)
 > [!NOTE]
-> **prototype**
+> **prototype declaration**
 >  ```
 >  <return-type> <function-name> (<arguments>);
 >  ```
 >
-> **declaration**
+> **definition**
 >  ``` 
 >  <return-type> <function-name> (<arguments>){
 >  <function-body>
@@ -254,13 +254,6 @@ When you want to create a function you put the prototype at the beginning of the
 >  }
 >  ```
 >
-> **inline** (all-in-one)
->  ```
->  <return-type> <function-name> (<arguments>){
->  <function-body>
->  return <return-value>;
->  }; // note the semi-colon
->  ```
 > example:
 > > in header
 > > ```
