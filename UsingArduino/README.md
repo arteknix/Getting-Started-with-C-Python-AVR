@@ -40,6 +40,11 @@ void loop() {
 > - digitalWrite()
 > - delay()
 > - LED_BUILTIN / HIGH / LOW
+
+## Arduino Tips and Tricks
+
+General Arduino subjects are treated in a dedicated [Arduino Folder](Arduino).
+
 ## How can it even work?
 
 Well, the answer to this is in your arduino folder ( /usr/share/arduino on linux ).\
