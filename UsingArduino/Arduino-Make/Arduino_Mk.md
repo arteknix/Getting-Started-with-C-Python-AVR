@@ -6,13 +6,13 @@ You'll find info in the [UsingArduino/README.md](../README.md#arduinomk)
 
 Create a folder conataining **one** Arduino-sketck (.ino or .pde)
 
-You can take the files in Example00.
+You can take the files in [Example00](../Example00).
  
 Type ```make``` , that's it 😃 
 
 For uploading you need **Avrdude**. which is such a cool tool. The documentation is amazing too. 
 
-So just type ```make upload``` , when using usb on the UNO for example. 
+So just type **```make upload```** , when using usb on the UNO for example. 
 
 >[!TIP]
 > As you are using Arduino, avrdude is installed in the arduino folder along it's configuration file.
