@@ -33,7 +33,7 @@ all:
 < TAB-8 > $(CC) <source.c> -o $(TARGET)
 ```
 where < TAB-8 > is a real size 8 tab. ⚠️ not 8 spaces. this has to be set in your editor\
-`:set noexpandtab` `set softtabstop=8` and `:set ts=8` in vim
+`:set noexpandtab` `:set softtabstop=8` and `:set ts=8` in vim
 
 You can make it permanent to your file:\
 On the first line of Makefile write the following _vim_modeline_:
