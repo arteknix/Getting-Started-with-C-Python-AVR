@@ -535,7 +535,7 @@ Mostly used for reading-writing-verifying FLASH and setting FUSES
 
 ### saving your sketch to a file
 >[!TIP]
-> you have some working code on your AVR and you want to save it to a file before flashing new code:\
+> you have some working code on your AVR and you want to save it to a file before flashing new code:
 >```
 > avrdude -p m328p -c arduino -P /dev/ttyACM2 -b 115200 -U flash:r:arducam.hex:i
 >```
