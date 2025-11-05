@@ -4,7 +4,8 @@
 
 If you are not familiar with the C programming language, please go through [LearningC](../LearningC)
 
-Before diving into this make sure you read [UsingArduino](../UsingArduino/README.md)
+Before diving into this make sure you read [UsingArduino](../UsingArduino/README.md) 
+and [Tools/AVRdude](../Tools/AVRdude/README.md)
 
 Lesson00 will be a standard blink ("Hello World" for hardware ) using an arduino-uno built on an [atmega328p](#atmega328p)
  
