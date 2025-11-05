@@ -1,7 +1,7 @@
 #vim: noexpandtab: ts=8: softtabstop=8
 #/*minimal Makefile*/
 TARGET 	= testing_C
-CC 	= gcc
+CC 	= /usr/bin/gcc
             
 $(TARGET):
 	$(CC) minimal.c -o $(TARGET)
