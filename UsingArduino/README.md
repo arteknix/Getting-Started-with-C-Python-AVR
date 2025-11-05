@@ -2,7 +2,7 @@
 
 Using the IDE and testing alternatives 
 >[!NOTE]
-> The concept is to make it as easy as possible for 'NotCodingPeople' to get creative results
+> The arduino concept is to make it as easy as possible for 'NotCodingPeople' to get creative results
 > in micro-computing and electronics in order to **make** _cool stuff_
 
 >[!IMPORTANT]
