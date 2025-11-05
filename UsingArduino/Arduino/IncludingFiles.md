@@ -9,3 +9,11 @@
 > If you are using a library which does not exactly do what your looking for,\
 > copy the source (*.h and .cpp) to your sketck folder and make your changes there.
 > 💡
+> ⚠️ you need to modify
+> ```
+> #include <library_name>
+> ```
+> to
+> ```
+> #include "library_name"
+> ```
