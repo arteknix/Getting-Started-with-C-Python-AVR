@@ -1,4 +1,14 @@
 # Coding in C for Arduino/AVR
+
+>[!IMPORTANT]
+> Most of what I learned on this subject is thanks to **Denis Bodor**,\
+> chief editor and creator of fabulous magazines published by **Editions Diamond**:
+> 
+> - Gnu Linux Magazine France (GLMF)
+> - Open Silicium
+> - Hackable
+> 
+
 >[!NOTE]
 >***The heart of this Repo***
 
