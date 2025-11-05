@@ -23,7 +23,7 @@ Lesson00 will be a standard blink ("Hello World" for hardware ) using an arduino
 > we will be using
 > - libc-avr
 > - avr-gcc
-> - avrdude
+> - avrdude [Tools/AVRdude](../Tools/AVRdude)
 
 ## Atmega328p 
 The **Atmel AVR Atmega328p** is a wonderfull piece of hardware.
