@@ -14,7 +14,9 @@ You could use code_source.banana, but it's not usefull since:
 
 ## Header
 > [!NOTE]
-> header-files contain information on how to use functions and variables from other files or libraries
+> header-files contain information on how to use functions and variables from other files or libraries.\
+> if your header-file contains not only declarations but also code, please keep the **.h** extension.\
+> **.c** is for source-files only. 
 
 > [!TIP]
 > **.h** | C/C++ headers
