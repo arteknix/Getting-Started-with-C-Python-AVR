@@ -2,7 +2,7 @@
 
 Install the package for your distro, in _debian_ it's called **arduino-mk**
 
-You'll find info in the [UsingArduino/README.md](../UsingArduino/README.md#arduinomk)
+You'll find info in the [UsingArduino/README.md](../README.md#arduinomk)
 
 Create a folder conataining **one** Arduino-sketck (.ino or .pde)
 
