@@ -9,7 +9,9 @@
 > - Adafruit_BusIO
 >
 
+<details><summary> Picture of display </summary>
 [OLED](OLED096i2c_02.png)
+</details>
 
 >[!NOTE]
 > Good tutorial on [Random Nerd Tutorials](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
