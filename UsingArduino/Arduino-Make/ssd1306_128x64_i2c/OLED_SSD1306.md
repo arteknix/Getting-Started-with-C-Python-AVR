@@ -1,4 +1,4 @@
-# I2C 0.96" OLED dsiplay with SSD1306 controller
+# I2C 0.96" OLED display with SSD1306 controller
 
 >[!TIP]
 > Needs the following Arduino Libraries:
