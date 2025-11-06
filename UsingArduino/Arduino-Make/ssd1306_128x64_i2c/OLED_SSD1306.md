@@ -10,7 +10,9 @@
 >
 
 <details><summary> Picture of display </summary>
-[OLED](OLED096i2c_02.png)
+  
+![OLED](OLED096i2c_02.png)
+
 </details>
 
 >[!NOTE]
