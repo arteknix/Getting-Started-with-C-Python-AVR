@@ -6,7 +6,7 @@ You'll find info in the [UsingArduino/README.md](../README.md#arduinomk)
 
 Create a folder conataining **one** Arduino-sketck (.ino or .pde)
 
-You can take the files in [Example00](../Example00).
+You can take the files in [Example00](Example00).
  
 Type ```make``` , that's it 😃 
 
