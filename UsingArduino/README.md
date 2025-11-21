@@ -6,7 +6,7 @@ Using the IDE and testing alternatives
 > in micro-computing and electronics in order to **make** _cool stuff_
 
 >[!IMPORTANT]
-> Here we'll show what a **'Coder'** would want to know about Arduino®\
+> Here we'll show what a **'Coder'** would want to know about Arduino™\
 > The Arduino Language:
 > - is a mix of C and C++
 > - includes many definitions so you do not have to worry about them
